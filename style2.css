@@ -1,0 +1,289 @@
+*{margin: 0; padding: 0;}
+a{text-decoration: none; color:#000;}
+ul{list-style: none;}
+
+body{
+    font-family: '나눔바른고딕OTF';
+    font-size: 20px;
+    font-weight: 22px;
+    color: #000;
+}
+
+
+#header{width:1320px; height: 250px; margin:0 auto; position:relative;}
+.logo{position:absolute; top:20px; left:30%; margin-left:142px;
+  /* top:20px; left:50%; margin-left:이미지반사이즈 */
+ }
+.nav{position:absolute; top:200px; left:50%; margin-left:-303.36px; /*로고이미지 작업후 변경필수*/}
+.nav li{float:left;}
+.nav li a{display:block; padding:10px 35px;}
+.nav li a:hover{color: darkred;}
+
+
+#banner{
+    width: 1320px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1{width: 1320px;
+height: 100px;
+margin: 0 auto;
+text-align: center;
+font-family: '상주경천섬체';
+color: darkred;
+padding: 50px 30px;}
+
+#con1{
+    width: 1320px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+   
+    position: relative;
+}
+
+.to1{position: absolute; right: 200px;
+color: mediumvioletred;}
+
+.ta1{ height: 340px;
+    padding: 0 50px;
+    position: absolute; left: 200px;
+   border-right: 1px solid red;
+   font-family: '상주경천섬체';
+   color: mediumvioletred;
+   background: url(images/gradiant01.png) no-repeat left;
+}
+
+.book1 li{float: left;
+         
+        }
+
+        .book1 li a{
+            display: block;
+           
+            padding-left:50px;
+        }
+
+
+        .book1 li:nth-child(1){
+            position: absolute; left: 550px; top: 35px;
+           
+        }
+        .book1 li:nth-child(2){
+            position: absolute; left: 832px; top: 35px;
+        }
+
+
+        #con2{
+          width: 1320px;
+          height: 600px;
+          margin: 0 auto;
+          text-align: center;
+         position: relative;
+        
+        }
+
+        .to2{
+         position: absolute; left: 200px;
+         padding: 0 10px;
+         color: goldenrod;
+        }
+
+        .ta2{
+           
+            height: 340px;
+            padding-left: 20px;
+            position: absolute; right: 200px;
+            border-left: 1px solid gold;
+            font-family: '상주경천섬체';
+            color: gold;
+          /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fefcea+0,f1da36+100;Gold+3D */
+background: #fefcea; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #fefcea 0%, #f1da36 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  #fefcea 0%,#f1da36 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  #fefcea 0%,#f1da36 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f1da36',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+        }
+        
+        .book2 li{
+            float: left;
+        }
+
+        .book2 li a{
+            display: block;
+            padding: 0 20px;
+        }
+
+        .book2 li:nth-child(1){
+            position: absolute; left: 200px; top: 35px;
+
+        }
+        .book2 li:nth-child(2){
+            position: absolute; left: 480px; top: 35px;
+        }
+
+
+        #con3{
+            width: 1320px;
+            height: 600px;
+            margin: 0 auto;
+            text-align: center;
+            position: relative;
+            background: g
+        }
+        
+        .to3{position: absolute; right: 200px;
+             color: orange;}
+        
+        .ta3{ height: 340px;
+            padding: 0 50px;
+            position: absolute; left: 200px;
+           border-right: 1px solid orange;
+           font-family: '상주경천섬체';
+           color: darkorange;}
+        
+        .book3 li{float: left;
+                 
+                }
+        
+                .book3 li a{
+                    display: block;
+                   
+                    padding-left:50px;
+                }
+        
+        
+                .book3 li:nth-child(1){
+                    position: absolute; left: 550px; top: 35px;
+        
+                }
+                .book3 li:nth-child(2){
+                    position: absolute; left: 832px; top: 35px;
+                }
+        
+
+   #con4{
+                    width: 1320px;
+                    height: 600px;
+                    margin: 0 auto;
+                    text-align: center;
+                    position: relative;
+                    
+                }
+                
+                .to4{position: absolute; right: 200px;
+                      color: green;}
+                
+                .ta4{ height: 340px;
+                    padding: 0 50px;
+                    position: absolute; left: 200px;
+                   border-right: 1px solid green;
+                   font-family: '상주경천섬체';
+                   color: green;}
+                
+                .book4 li{float: left;
+                         
+                        }
+                
+                        .book4 li a{
+                            display: block;
+                           
+                            padding-left:50px;
+                        }
+                
+                
+                        .book4 li:nth-child(1){
+                            position: absolute; left: 550px; top: 35px;
+                
+                        }
+                        .book4 li:nth-child(2){
+                            position: absolute; left: 832px; top: 35px;}
+
+
+
+#con5{
+                                width: 1320px;
+                                height: 600px;
+                                margin: 0 auto;
+                                text-align: center;
+                               position: relative;
+                              }
+                      
+                            
+                      
+                              .ta5{
+                                 
+                                  height: 340px;
+                                  padding-left: 20px;
+                                  position: absolute; right: 200px;
+                                  border-left: 1px solid skyblue;
+                                  font-family: '상주경천섬체';
+                                  color: skyblue;
+                              }
+                              
+                              .book5 li{
+                                  float: left;
+                              }
+                      
+                              .book5 li a{
+                                  display: block;
+                                  padding: 0 20px;
+                              }
+                      
+                              .book5 li:nth-child(1){
+                                  position: absolute; left: 200px; top: 35px;
+                      
+                              }
+                              .book5 li:nth-child(2){
+                                  position: absolute; left: 480px; top: 35px;
+                              }
+ #footer2{
+                                width: 1320px;
+                                height: 350px;
+                                margin: 0 auto;
+                                text-align: center;
+                                background-color: #000;
+                                position: relative;
+                              }
+                              
+                              h6{
+                                  color: #fff;
+                                  float: left;
+                                  font-size: 20px;
+                                  font-family: '상주경천섬체';
+                                 position: absolute; left: 100px; top: 30px;
+
+                              }
+
+                              .fa li{
+                                float: left;
+    
+                              }
+                              
+                              .fa li a{
+                                display: block;
+                                color: #fff;
+            
+            
+                              }
+
+                              .fa li:nth-child(1){
+                                position: absolute; left: 100px; top: 60px; 
+                              }
+                              
+                              .fa li:nth-child(2){
+                                  position: absolute; left: 100px; top: 90px;
+                              }
+                             
+                              .fa li:nth-child(3){
+                                  position: absolute; left: 100px; top: 120px;
+                              }
+                              .fo{
+                                color: #fff;
+                                font-size: 10px;
+                                position: absolute; left: 100px; top: 250px;
+                              }
+                                             
