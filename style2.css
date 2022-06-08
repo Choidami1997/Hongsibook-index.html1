@@ -47,12 +47,14 @@ padding: 50px 30px;}
 .to1{position: absolute; right: 200px;
 color: mediumvioletred;}
 
-.ta1{ height: 340px;
+.ta1{
+    width: 120px; 
+    height: 340px;
     padding: 0 50px;
     position: absolute; left: 200px;
-   border-right: 1px solid red;
+   border-right: 1px solid palevioletred;
    font-family: '상주경천섬체';
-   color: mediumvioletred;
+   color: palevioletred;
    background: url(images/gradiant01.png) no-repeat left;
 }
 
@@ -92,20 +94,14 @@ color: mediumvioletred;}
         }
 
         .ta2{
-           
+            width: 200px;
             height: 340px;
             padding-left: 20px;
             position: absolute; right: 200px;
             border-left: 1px solid gold;
             font-family: '상주경천섬체';
             color: gold;
-          /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fefcea+0,f1da36+100;Gold+3D */
-background: #fefcea; /* Old browsers */
-background: -moz-radial-gradient(center, ellipse cover,  #fefcea 0%, #f1da36 100%); /* FF3.6-15 */
-background: -webkit-radial-gradient(center, ellipse cover,  #fefcea 0%,#f1da36 100%); /* Chrome10-25,Safari5.1-6 */
-background: radial-gradient(ellipse at center,  #fefcea 0%,#f1da36 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f1da36',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
+           background: url(images/yellow.png) no-repeat right;
         }
         
         .book2 li{
@@ -143,7 +139,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', end
             position: absolute; left: 200px;
            border-right: 1px solid orange;
            font-family: '상주경천섬체';
-           color: darkorange;}
+           color: darkorange;
+           background: url(images/orange.png)no-repeat left ;
+        }
         
         .book3 li{float: left;
                  
@@ -182,7 +180,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', end
                     position: absolute; left: 200px;
                    border-right: 1px solid green;
                    font-family: '상주경천섬체';
-                   color: green;}
+                   color: green;
+                   background: url(images/green.png)no-repeat left; 
+                }
                 
                 .book4 li{float: left;
                          
@@ -215,13 +215,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', end
                             
                       
                               .ta5{
-                                 
+                                 width: 200px;
                                   height: 340px;
                                   padding-left: 20px;
                                   position: absolute; right: 200px;
                                   border-left: 1px solid skyblue;
                                   font-family: '상주경천섬체';
                                   color: skyblue;
+                                  background: url(images/blue.png)no-repeat right;
                               }
                               
                               .book5 li{
